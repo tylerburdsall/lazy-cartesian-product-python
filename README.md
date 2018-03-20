@@ -8,7 +8,7 @@ Given a list of lists, you can find the Nth entry in a Cartesian Product without
 from LazyCartesianProduct import LazyCartesianProduct
 
 def example():
-  a = [1, 2, 3, 4, 5]
+  a = [ 1, 2, 3, 4, 5 ]
   b = [ 'foo', 'bar' ]
   c = [ 'x', 'y', 'z' ]
   d = [ 'one', 'two', 'three' ]
@@ -24,7 +24,7 @@ def example():
   print(result2)
 
   result3 = cp.entryAt(67)
-  print (result3)
+  print(result3)
   
  example()
 ```
