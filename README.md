@@ -2,7 +2,7 @@
 Find the Nth entry in a Cartesian Product
 
 ## Usage
-Given a list of lists, you can find the Nth entry in a Cartesian Product without precomputing every combination. This saves memory and time while also maitaning close to O(1) performance:
+Given a list of lists, you can find the Nth entry in a Cartesian Product without precomputing every combination. This saves memory and time while also maintaning close to O(1) performance:
 
 ```
 from LazyCartesianProduct import LazyCartesianProduct
